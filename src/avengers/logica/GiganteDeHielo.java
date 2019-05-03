@@ -7,23 +7,31 @@ package avengers.logica;
 
 /**
  *
- * @author ARANGO
+ * @author judil
  */
-public interface Magicos {
-           /**
+public class GiganteDeHielo implements Magicos{
+             /**
      * operacion para manipular objetos
      */
-    public void manipularobjetos();
+    public void manipularobjetos(){
+        
+    };
      /**
      * operacion para ver futuro
      */
-    public void verfuturo();
+    public void verfuturo(){
+        
+    };
     /**
      * operacion para distorsionar realidad
      */
-    public void distorsionarrealidad();
+    public void distorsionarrealidad(){
+        
+    };
      /**
      * operacion para abrir portales
      */
-    public void abrirportales();
+    public void abrirportales(){
+        
+    };
 }
